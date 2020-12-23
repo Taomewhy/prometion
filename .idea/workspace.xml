@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="365d41ed-318f-4b45-9b9a-dc375254de31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/PrometionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/EmpRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/RoleSourcesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/SourcesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/dto/EmployeeAddDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/dto/PageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/dto/RoleAddDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/entity/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/entity/EmpRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/entity/RoleSources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/entity/Sources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/EmpRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/RoleSourcesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/SourcesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IEmpRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IRoleSourcesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/ISourcesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmpRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/RoleSourcesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/SourcesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/utils/ExportUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/utils/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/vo/MenuVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/api/vo/SourcesVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/config/DateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/generator/MybatisPlusGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min14ed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/customer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min93e3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/loginstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/pinglun.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/iCheck/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/iCheck/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/select/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/plugins/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.min862f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont93e3.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/88_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/angrya_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bba_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/boboshengmenqi_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bofubianlian_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bs2_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bs_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bz_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cake.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cat_yunqizhong_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/chn_buyaoya_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cj_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/clock_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/come_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cool_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/crazya_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cza_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/daxiongleibenxiong_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dizzya_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gbzkun_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/good_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gza_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/h_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hatea_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hearta_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/heia_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hsa_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/k_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/kbsa_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/kl_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/laugh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lazu_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ldln_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lovea_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lxhluguo_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lxhzhuanfa_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/m_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/mb_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/money_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nm_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/no_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ok_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pig.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qq_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sad_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sada_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sb_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shamea_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sk_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sleepa_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sleepya_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/smilea_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sw_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sweata_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/t_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tootha_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tza_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/unheart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/weijin_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wq_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/x_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ye_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/yhh_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/youqian_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/yw_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/yx_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/z2_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zhh_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zy_thumb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/iconfont-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/index_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/loading-upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/locked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/logincode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/p_big1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/profile_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/profile_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/wenku_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index_v148b2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/canva_moving_effect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/contabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/contabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/demo/echarts-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/hplus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/hplus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/inputfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layerdatestartandend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/easypiechart/jquery.easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/echarts/echarts-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/gritter/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/gritter/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/gritter/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/gritter/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/extend/layer.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/layDate官网.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/laydate/skins/dahong/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/laydate/skins/dahong/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/laydate/skins/molv/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/laydate/skins/molv/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate-v1.1/更新日志.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate/skins/dahong/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate/skins/dahong/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate/skins/molv/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/laydate/skins/molv/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/layim/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/layim/layim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/layim/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer2.4/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer2.4/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer2.4/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer2.4/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer2.4/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer2.4/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/layer2.4/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/peity/jquery.peity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/peity/peity-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/select/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ztree/jquery.ztree.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ztree/jquery.ztree.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ztree/jquery.ztree.excheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ztree/jquery.ztree.excheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ztree/jquery.ztree.exedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/plugins/ztree/jquery.ztree.exedit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/welcome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-dept.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-employee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-resources.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/save-employee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/show-employee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/jsp/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/jsp/controller.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/filescan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/loaderror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/sortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/word.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/font/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/gray/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/themes/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/xss.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ueditor/ueditor.parse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update-dept.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update-logo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update-password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update-resources.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update-role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shixun/MybatisPlusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/prometion.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/prometion-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>age</find>
+      <find>foreach</find>
+      <find>pages</find>
+      <find>部</find>
+      <find>全选</find>
+      <find>up</find>
+      <find>page</find>
+      <find>返回</find>
+      <find>编辑</find>
+      <find>保存</find>
+      <find>角色</find>
+      <find>zNodes</find>
+      <find>dept</find>
+      <find>zNode</find>
+      <find>del-dept</find>
+      <find>部门</find>
+      <find>href</find>
+      <find>deleteNode</find>
+      <find>${</find>
+      <find>退出</find>
+      <find>日期</find>
+      <find>start</find>
+      <find>date</find>
+      <find>系统管理</find>
+      <find>usernam</find>
+      <find>addHoverDom</find>
+      <find>select</find>
+      <find>recursionUserMenu</find>
+      <find>&lt;p&gt;</find>
+      <find>修改密码</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>role</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index_v148b2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/AuthorizationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/vo/EmployeeQueryVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/vo/QueryVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/PrometionApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IDeptService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/list-dept.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/update-dept.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/show-employee.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/dto/PageDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/vo/SourcesVo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/update-resources.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/dto/RoleAddDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/list-role.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/config/DateConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/save-employee.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/dto/EmployeeAddDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/entity/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/list-employee.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/list-resources.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/RoleSourcesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/SourcesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/ISourcesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/EmpRoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmpRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/SourcesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/vo/MenuVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/SourcesMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IEmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/IEmpRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/utils/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/update-password.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/api/utils/ExportUtils.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_Repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="prometion" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="prometion" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="prometion" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="prometion" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="prometion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prometion" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/list-resources.jsp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/webapp/list-resources.jsp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\计科185\2020-2021年第一学期\课程设计\prometion\src\main\webapp" />
+      <recent name="D:\计科185\2020-2021年第一学期\课程设计\prometion\src\main\webapp\static" />
+      <recent name="D:\计科185\2020-2021年第一学期\课程设计\prometion\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\计科185\2020-2021年第一学期\课程设计\prometion\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PrometionApplication">
+    <configuration name="MybatisPlusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shixun.generator.MybatisPlusGenerator" />
+      <module name="prometion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prometion" />
+      <option name="PACKAGE_NAME" value="com.shixun" />
+      <option name="MAIN_CLASS_NAME" value="com.shixun.MybatisPlusTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrometionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="prometion" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shixun.PrometionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PrometionApplication" />
+        <item itemvalue="JUnit.MybatisPlusTest.test1" />
+        <item itemvalue="Application.MybatisPlusGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="365d41ed-318f-4b45-9b9a-dc375254de31" name="Default Changelist" comment="" />
+      <created>1608084903973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608084903973</updated>
+      <workItem from="1608084907460" duration="9448000" />
+      <workItem from="1608474966670" duration="2734000" />
+      <workItem from="1608521060928" duration="77299000" />
+      <workItem from="1608711637275" duration="10263000" />
+      <workItem from="1608732526578" duration="328000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MybatisPlusTest_test1 - 2020.12.16 at 11h 08m 41s.xml">
+      <configuration name="MybatisPlusTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_test1 - 2020.12.16 at 11h 09m 33s.xml">
+      <configuration name="MybatisPlusTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_test1 - 2020.12.20 at 22h 40m 26s.xml">
+      <configuration name="MybatisPlusTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_test1 - 2020.12.20 at 23h 05m 17s.xml">
+      <configuration name="MybatisPlusTest.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="100072000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83296216" visible="true" weight="0.27144772" />
+      <window_info id="Structure" order="1" sideWeight="0.16703786" side_tool="true" weight="0.2680965" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.905496" weight="0.42008486" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3649222" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.09450402" side_tool="true" weight="0.38189533" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1152815" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.20375335" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/controller/DeptController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/controller/DeptController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/controller/DeptController.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/controller/RoleController.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/RoleServiceImpl.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmpRoleServiceImpl.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/controller/EmployeeController.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.1.RELEASE/spring-security-core-5.1.1.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.1.RELEASE/spring-security-core-5.1.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.1.RELEASE/spring-security-web-5.1.1.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.1.RELEASE/spring-security-web-5.1.1.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/entity/EmpRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.2.RELEASE/spring-aop-5.1.2.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="569" selection-start-line="569" selection-end-line="569" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="430" selection-start-line="430" selection-end-line="430" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="496" selection-start-line="496" selection-end-line="496" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/core/ApplicationDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.1.RELEASE/spring-security-web-5.1.1.RELEASE.jar!/org/springframework/security/web/header/HeaderWriterFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.1.RELEASE/spring-security-web-5.1.1.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.1.RELEASE/spring-security-web-5.1.1.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/core/StandardContextValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/core/StandardHostValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/core/StandardEngineValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/valves/ErrorReportValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="317" selection-start-line="317" selection-end-line="317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/core/StandardWrapperValve.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/coyote/http11/Http11Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/vo/MenuVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/entity/Sources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/mapper/SourcesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/list-employee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/IEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/controller/EmpRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/ISourcesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/IEmpRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_261/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/SourcesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2575">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.2.RELEASE/spring-aop-5.1.2.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="193" column="25" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/utils/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/update-dept.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/save-employee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index_v148b2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/list-dept.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/update-password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/update-role.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1025">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/utils/ExportUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmpRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13568">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/api/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
